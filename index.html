@@ -9,11 +9,12 @@
 </head>
 <body>
 	<svg id="morseTree" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-		
+
 		<circle id="startDot" cx="400" cy="50" r="20" fill="#000" />
 		<text id="startText" x="400" y="53" font-size="12" text-anchor="middle" fill="#fff">Start</text>
 
 		<!-- right side -->
+		<!-- layer 1 -->
 		<line id="line-start-T" class="line" x1="420" x2="440" y1="50" y2="50"></line>
 		<line id="bar-T" class="bar" x1="440" x2="470" y1="50" y2="50"></line>
 		<text id="text-T" class="letter" x="455" y="40" font-size="12" text-anchor="middle">T</text>
@@ -27,8 +28,67 @@
 
 		<line id="bar-O" class="bar" x1="540" x2="570" y1="50" y2="50"></line>
 		<text id="text-O" class="letter" x="555" y="40" font-size="12" text-anchor="middle">O</text>
+		<!-- layer 2 -->
+		
+		<line id="line-M-G" class="line" x1="505" x2="505" y1="55" y2="92"></line>
+		
+		<circle id="dot-G" class="dot" cx="505" cy="100" r="8"></circle>
+		<text id="text-G" class="letter" x="490" y="105" font-size="12" text-anchor="middle">G</text>
+		
+		<line id="line-G-Q" class="line" x1="513" x2="540" y1="100" y2="100"></line>
+		
+		<line id="bar-Q" class="bar" x1="540" x2="570" y1="100" y2="100"></line>
+		<text id="text-Q" class="letter" x="555" y="90" font-size="12" text-anchor="middle">Q</text>
+		<!-- layer 3 -->
+		
+		<line id="line-G-Z" class="line" x1="505" x2="505" y1="108" y2="142"></line>
+		
+		<circle id="dot-Z" class="dot" cx="505" cy="150" r="8"></circle>
+		<text id="text-Z" class="letter" x="490" y="155" font-size="12" text-anchor="middle">Z</text>
+		
+		<!-- layer 4 -->
+		
+		<line id="line-T-N" class="line" x1="455" x2="455" y1="55" y2="192"></line>
+		
+		<circle id="dot-N" class="dot" cx="455" cy="200" r="8"></circle>
+		<text id="text-N" class="letter" x="440" y="205" font-size="12" text-anchor="middle">N</text>
 
+		<line id="line-N-K" class="line" x1="463" x2="489" y1="200" y2="200"></line>
+
+		<line id="bar-K" class="bar" x1="490" x2="520" y1="200" y2="200"></line>
+		<text id="text-K" class="letter" x="505" y="190" font-size="12" text-anchor="middle">K</text>
+
+		<line id="bar-Y" class="bar" x1="540" x2="570" y1="200" y2="200"></line>
+		<text id="text-Y" class="letter" x="555" y="190" font-size="12" text-anchor="middle">Y</text>
+
+		<line id="line-K-Y" class="line" x1="520" x2="540" y1="200" y2="200"></line>
+
+		<!-- layer 5 -->
+		<line id="line-K-C" class="line" x1="505" x2="505" y1="205" y2="242"></line>
+
+		<circle id="dot-C" class="dot" cx="505" cy="250" r="8"></circle>
+		<text id="text-C" class="letter" x="490" y="255" font-size="12" text-anchor="middle">C</text>
+
+		<!-- layer 6 -->
+
+		<line id="line-N-D" class="line" x1="455" x2="455" y1="208" y2="292"></line>
+
+		<circle id="dot-D" class="dot" cx="455" cy="300" r="8"></circle>
+		<text id="text-D" class="letter" x="440" y="305" font-size="12" text-anchor="middle">D</text>
+
+		<line id="line-D-X" class="line" x1="463" x2="489" y1="300" y2="300"></line>
+
+		<line id="bar-X" class="bar" x1="490" x2="520" y1="300" y2="300"></line>
+		<text id="text-X" class="letter" x="505" y="290" font-size="12" text-anchor="middle">X</text>
+
+		<!-- layer 7 -->
+
+		<line id="line-D-B" class="line" x1="455" x2="455" y1="308" y2="342"></line>
+		
+		<circle id="dot-B" class="dot" cx="455" cy="350" r="8"></circle>
+		<text id="text-B" class="letter" x="440" y="355" font-size="12" text-anchor="middle">B</text>
 		<!-- left side  -->
+		<!-- layer 1 -->
 		<line id="line-start-E" class="line" x1="380" x2="360" y1="50" y2="50"></line>
 		<circle id="dot-E" class="dot" cx="352" cy="50" r="8"></circle>
 		<text id="text-E" class="letter" x="352" y="40" font-size="12" text-anchor="middle">E</text>
@@ -49,4 +109,5 @@
 </html>
 <!-- note -->
  <!-- bar length is 30px -->
+ <!-- layer space 50px -->
 <!-- note -->
