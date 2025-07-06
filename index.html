@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>morseTree</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<svg id="morseTree" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+		
+		<circle id="startDot" cx="400" cy="50" r="20" fill="#000" />
+		<text id="startText" x="400" y="53" font-size="12" text-anchor="middle" fill="#fff">Start</text>
+
+		<!-- right side -->
+		<line id="line-start-T" class="line" x1="420" x2="440" y1="50" y2="50"></line>
+		<line id="bar-T" class="bar" x1="440" x2="470" y1="50" y2="50"></line>
+		<text id="text-T" class="letter" x="455" y="40" font-size="12" text-anchor="middle">T</text>
+
+		<line id="line-T-M" class="line" x1="470" x2="490" y1="50" y2="50"></line>
+
+		<line id="bar-M" class="bar" x1="490" x2="520" y1="50" y2="50"></line>
+		<text id="text-M" class="letter" x="505" y="40" font-size="12" text-anchor="middle">M</text>
+		
+		<line id="line-M-O" class="line" x1="520" x2="540" y1="50" y2="50"></line>
+
+		<line id="bar-O" class="bar" x1="540" x2="570" y1="50" y2="50"></line>
+		<text id="text-O" class="letter" x="555" y="40" font-size="12" text-anchor="middle">O</text>
+
+		<!-- left side  -->
+		<line id="line-start-E" class="line" x1="380" x2="360" y1="50" y2="50"></line>
+		<circle id="dot-E" class="dot" cx="352" cy="50" r="8"></circle>
+		<text id="text-E" class="letter" x="352" y="40" font-size="12" text-anchor="middle">E</text>
+
+		<line id="line-E-I" class="line" x1="344" x2="324" y1="50" y2="50"></line>
+		<circle id="dot-I" class="dot" cx="316" cy="50" r="8"></circle>
+		<text id="text-I" class="letter" x="316" y="40" font-size="12" text-anchor="middle">I</text>
+
+		<line id="line-I-S" class="line" x1="308" x2="288" y1="50" y2="50"></line>
+		<circle id="dot-S" class="dot" cx="280" cy="50" r="8"></circle>
+		<text id="text-S" class="letter" x="280" y="40" font-size="12" text-anchor="middle">S</text>
+		
+		<line id="line-S-H" class="line" x1="272" x2="252" y1="50" y2="50"></line>
+		<circle id="dot-H" class="dot" cx="244" cy="50" r="8"></circle>
+		<text id="text-H" class="letter" x="244" y="40" font-size="12" text-anchor="middle">H</text>
+	</svg>
+</body>
+</html>
+<!-- note -->
+ <!-- bar length is 30px -->
+<!-- note -->

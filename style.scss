@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8d8d8d;
+}
+
+svg {
+	border: 2px solid #000;
+	.line {
+		stroke: #ffe600;
+		stroke-width: 2;
+	}
+	.bar {
+		stroke: #000;
+		stroke-width: 10;
+	}
+	.dot {
+		fill: #000;
+	}
+}
+
